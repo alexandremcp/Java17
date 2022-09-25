@@ -8,7 +8,7 @@ public class TestaConta {
         primeiraConta.saldo = 1525.40;
         primeiraConta.agencia = 1;
         primeiraConta.numero = 100;
-        primeiraConta.titular = "Pedro Henrique";
+        //primeiraConta.titular = "Pedro Henrique";
 
         System.out.println("O titular da primeira conta é: " + primeiraConta.titular);
         System.out.println("A agengia da primeira conta é: " + primeiraConta.agencia);

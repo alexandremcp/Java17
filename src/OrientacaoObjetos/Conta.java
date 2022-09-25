@@ -4,7 +4,7 @@ public class Conta {
 
         int agencia;
         int numero;
-        String titular;
+        Cliente titular;
         double saldo;
 
         void depositar(double valor) {
