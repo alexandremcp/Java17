@@ -1,7 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù áúúÿÿÿÿ
-B
-java:S2440"%Remove this instantiation of "Conta".(ÁçÝ‰8Ý­Û¢·0
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆˆêÚûÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿæ•‘ùÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¬ôÚ…
