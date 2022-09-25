@@ -19,4 +19,13 @@ public class Conta {
                 return false;
             }
         }
+
+        void transferir(double valor, Conta destino) {
+            boolean conseguiuSacar = this.sacar(valor);     //this faz referencia ao objeto que chamou o metodo
+
+            if (conseguiuSacar) {
+                destino.depositar(valor);
+            }
+        }
+
 }
