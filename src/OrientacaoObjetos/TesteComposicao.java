@@ -11,6 +11,7 @@ public class TesteComposicao {
 
         Conta conta = new Conta();
         conta.titular = clientePedro;
+        
         System.out.println(conta.titular.nome);
         System.out.println(conta.titular.cpf);
         System.out.println(conta.titular.profissao);
