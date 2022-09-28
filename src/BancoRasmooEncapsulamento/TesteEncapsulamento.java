@@ -18,12 +18,12 @@ public class TesteEncapsulamento {
         // cliente.setProfissao("Programador");
         // cliente.setSalario(10000.00);
         
-        Conta conta = new Conta();
+        Conta conta = new Conta(2370,10025,new Cliente("Gustavo","123.456.789-00"));    
         conta.depositar(1000);
         conta.sacar(1000);
         conta.setAgencia(10);
 
-        conta.setTitular(new Cliente());
+        //conta.setTitular(new Cliente());
         conta.getTitular().setNome("Gustavo");
         conta.getTitular().setCpf("123.456.789-00");
         conta.getTitular().setProfissao("Desenvolvedor");
