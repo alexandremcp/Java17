@@ -1,5 +1,3 @@
-package BancoRasmooHeranca;
-
 public class Cliente {
 
     private String nome;

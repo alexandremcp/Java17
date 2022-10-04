@@ -1,5 +1,3 @@
-package BancoRasmooHeranca;
-
 public class Conta {
 
     private int agencia;
